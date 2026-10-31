@@ -9,7 +9,7 @@ admin.initializeApp({
 const db = admin.firestore();
 
 // Telegram Bot Setup
-const bot = new Telegraf('9133397287:AAF6vR1zmWiayVEz2OoPhpJC9jPLG1pffVs');
+const bot = new Telegraf('9133397287:AAF6V... (আপনার আসল টেলিগ্রাম বট টোকেন এখানে থাকবে)');
 
 bot.start((ctx) => {
   ctx.reply('স্বাগতম! আপনার বট সফলভাবে চালু হয়েছে।');
